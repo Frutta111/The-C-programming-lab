@@ -1,0 +1,69 @@
+Hi! I'm going to introduce to you our new interactice caculator. 
+This caculator will do some operations on set numbers. 
+We are going to learn step by step how to use it well.
+The command line use to include the relevant name of sets, potentially command in the right struct of line.
+The potentially commands on the numbers are : read_set, print_set, union_set, intersect_set, sub_set and symdiff_set 
+The potentially names of sets are : SETA, SETB, SETC, SETD, SETE and SETF (with capital letters). 
+The numbers we will enter to each set sould be between 0 - 127. 
+The struct of the line is different if we use different commands : 
+if we use read_set, the line should be : |read_set| |name of set|, |number|, |number|,... to end it enter -1 and then |enter| 
+For example : read_set SETB, 5,67,89,-1 and |enter| 
+Note: there is no output aftar read_set operation. 
+if we use print_set, the line should be : |print_set| |name of set| and then |enter| , for example: 
+print_set SETC and |enter| 
+if we use union_set, intersect_set, sub_set and symdiff_set, the line should be : |command| |name of first set|, |name of second set|, |name of thirs set| and then |enter| .
+The result of the operetion on the two first sets, enters to the third set. 
+For example: sub_set SETC, SETD, SETB and |enter| 
+If there is a problem, it will print you message 
+To end the program write : |stop| and then |enter| and |enter| 
+For example : stop 
+Enjoy! 
+--> SETA is : The set is empty
+
+--> SETB is : The set is empty
+
+--> SETC is : The set is empty
+
+--> SETD is : The set is empty
+
+--> SETE is : The set is empty
+
+--> SETF is : The set is empty
+
+--> --> SETA is :  3  4  6  7  23  34  45  75 
+
+--> --> SETB is :  2  3  4  5  43  45  78 
+
+--> --> SETC is :  100  101  103  104  105 
+
+--> --> SETC is :  0  3  126  127 
+
+--> --> SETC is : The set is empty
+
+--> --> SETD is : The set is empty
+
+--> --> SETC is :  110  111  112 
+
+--> --> SETD is :  2  3  4  5  6  7  23  34  43  45  75  78 
+
+--> --> SETE is :  3  4  45 
+
+--> --> SETF is :  6  7  23  34  75 
+
+--> --> SETF is :  2  5  6  7  23  34  43  75  78 
+
+--> --> SETD is : The set is empty
+
+--> --> SETE is :  2  3  4  5  43  45  78 
+
+--> --> SETB is :  3  4  45 
+
+--> --> SETC is :  3  4  6  7  23  34  45  75  110  111  112 
+
+--> --> SETC is :  110  111  112 
+
+--> --> SETC is : The set is empty
+
+--> --> SETF is :  2  5  6  7  23  34  43  75  78 
+
+--> --> The calculator stops, without 'stop' command 

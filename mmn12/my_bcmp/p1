@@ -1,0 +1,26 @@
+Enter as follows: number of bytes to compare, index to pointer 1, index to pointer 2, a string to work with a maximum size of 512 characters. Use white characters to separate the variables.
+
+-------The inputs are:--------------------------------------------
+  Index1 points to: 3 and index2 points to: 6
+  Number of bytes to be compared is: 4
+  Memory segments contains the string: 
+aaaabbbbbgggggaaaa%%^^&^&         kjfgkdjgk            khjkjghdkjgh
+sfsdffsdf
+
+sfsf
+
+sdff
+
+
+
+
+-------The segments to be compared are:----------------------------
+abbb
+
+bbbg
+
+
+-------The result is:-------------------------------------------
+my_bcmp return value = -1 
+memcmp return value = -1 
+segments are unequal 

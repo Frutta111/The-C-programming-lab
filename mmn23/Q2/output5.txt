@@ -1,0 +1,5 @@
+The string to search for is:@*b
+The results are:
+@b*
+@*b
+@*b

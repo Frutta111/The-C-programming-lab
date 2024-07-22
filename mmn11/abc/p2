@@ -1,0 +1,10 @@
+
+Enter a string to be shortened (up to 80 chars):
+
+The original string is:
+XYZ12768abs=cABC$^()abcdefABcdef ABaabbccwxyz0
+
+
+The shortend string is:
+X-Z12768abs=cA-C$^()a-fABc-f ABaabbccw-z0
+

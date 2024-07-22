@@ -1,0 +1,18 @@
+make
+
+/*************************************************/
+./permut  data.in chair >output1.text 2>error1.text
+
+/*************************************************/
+./permut  data2.in chair >output2.text 2>error2.text
+
+/*************************************************/
+./permut  data3.in chair >output3.text 2>error3.text
+
+/*************************************************/
+./permut  data3.in "ar ee" >output4.text 2>error4.text
+
+/*************************************************/
+./permut  data4.in "@*b" >output5.text 2>error5.text
+
+

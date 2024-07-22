@@ -1,0 +1,10 @@
+
+Enter a string to be shortened (up to 80 chars):
+
+The original string is:
+dabcefLMNOpQrstuv567zyx
+
+
+The shortend string is:
+da-cefL-OpQr-v567zyx
+

@@ -1,0 +1,16 @@
+Enter x - to be rotated (integer):
+Enter n - the number of bits to rotate (integer):
+
+x before rotate:
+ base 2:00000000000000010010101100000010
+ base 16 unsigned: 12b02
+ base 10: 76546
+ base 8 unsigned: 225402
+
+Number of bits to rotate: 14
+
+x after rotate:
+ base 2:10101100000010000000000000000100
+ base 16 unsigned: ac080004
+ base 10: -1408761852
+ base 8 unsigned: 25402000004

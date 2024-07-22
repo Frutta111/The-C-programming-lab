@@ -1,0 +1,5 @@
+The string to search for is:ar ee
+The results are:
+ee ar
+ eare
+e are

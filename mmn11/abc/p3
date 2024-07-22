@@ -1,0 +1,10 @@
+
+Enter a string to be shortened (up to 80 chars):
+
+The original string is:
+abcdefghijk    lmnop    qrstuv   000999888aaabbbccc XXXXXXXXXXXXXXXXXXXXXXYZ
+
+
+The shortend string is:
+a-k    l-p    q-v   000999888aaabbbccc XXXXXXXXXXXXXXXXXXXXXX-Z
+

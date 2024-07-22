@@ -1,0 +1,6 @@
+The string to search for is:chair
+The results are:
+chair
+arich
+hairc
+arich

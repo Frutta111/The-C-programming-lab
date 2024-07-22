@@ -1,0 +1,10 @@
+
+Enter a string to be shortened (up to 80 chars):
+
+The original string is:
+   jklmnOP ABS GHIJK RSTUVWXYZ12768abs=cABC
+
+
+The shortend string is:
+   j-nOP ABS G-K R-Z12768abs=cA-C
+
